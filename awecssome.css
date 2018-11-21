@@ -1,3 +1,4 @@
 @import './common.blocks/grid/grid.css';
 @import './common.blocks/button/button-export.css';
 @import './common.blocks/breadcrumbs/breadcrumbs-export.css';
+@import './common.blocks/pagination/pagination-export.css';

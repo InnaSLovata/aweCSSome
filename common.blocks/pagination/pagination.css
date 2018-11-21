@@ -1,0 +1,27 @@
+/* -------------------------------------------------- */
+/* Variables and defaults                             */
+/* -------------------------------------------------- */
+
+:root {
+  /* Typographic */
+  --pagination-font-family: inherit;
+  --pagination-font-size: inherit;
+  --pagination-line-height: inherit;
+  --pagination-font-weight: inherit;
+
+  /* Colors */
+  --pagination-color: inherit;
+}
+
+
+.pagination {
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  font-family: var(--pagination-font-family);
+  font-size: var(--pagination-font-size);
+  line-height: var(--pagination-line-height);
+  font-weight: var(--pagination-font-weight);
+  color: var(--pagination-color);
+}
